@@ -1,0 +1,46 @@
+
+.cus-form{
+    width:100%;
+    margin-bottom: 20px;
+}
+.cus-form input{
+    width:85%;
+    padding:10px 20px;
+    border:none;
+    outline:1px solid gray;
+    box-shadow:1px 1px 5px gray;
+    margin-right:10px;
+    border-radius:10px;
+}
+.cus-form button{
+    padding:10px 20px;
+    background:green;
+    color:#fff;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    border:1px solid #000;
+}
+
+.cus-form button:hover{
+    background:#fff;
+    color:#000;
+}
+
+
+
+
+
+@media(max-width:800px){
+    .cus-form input{
+        width:73%;
+    }
+    .cus-form button{
+        padding:10px 10px;
+    }
+}
+
+
+@media(max-width:400px){
+}
+
